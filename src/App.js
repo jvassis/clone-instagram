@@ -1,10 +1,13 @@
+import { Header } from './components/Header';
+import { Layout } from './components/Layout';
 import './styles/global.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello!</h1>
-    </div>
+    <>
+      <Header />
+      <Layout />
+    </>
   );
 }
 

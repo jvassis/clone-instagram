@@ -1,0 +1,19 @@
+.main-grid {
+    display: grid;
+    grid-template-areas: "first-column second-column";    
+    grid-template-columns: 614px 293px;
+    grid-gap: 50px;
+    max-width: 957px;
+    margin: 100px auto;
+}
+
+.box {
+    background: var(--background);
+    border: 1px solid var(--border);
+}
+
+.suggestion-box {
+    position: fixed;
+    flex: 1;
+    max-width: 293px;
+}
